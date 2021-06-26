@@ -49,7 +49,6 @@ function portfolio_enqueue_scripts() {
 add_action( 'admin_print_styles', 'portfolio_enqueue_scripts' );
 
 
-
 //added menu page title
 add_action('admin_menu', 'my_menu_pages');
 function my_menu_pages(){
